@@ -1,2 +1,3 @@
-# 3.4-lyd
- IT-prosjekt
+# IT-prosjekt 3.4-lyd
+It prosjekt om lyd
+
