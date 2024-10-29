@@ -3,3 +3,22 @@
     margin: 0;
     
 }
+
+:root{
+    --MørkGrønn--: #214E34;
+    --Grønn--: #A1CDA8;
+    --LysGrønn--: #B5DFCA;
+    --VeldigLysGrønn--: #C5E7E2;
+    --Blå--: #337CA0;
+ }
+
+.overskrift{
+    background-color: var(--Blå--); 
+    text-align: center; 
+    padding: 1px;
+    margin: 0;
+    font-size: 25px;
+}
+
+
+fargepalett
