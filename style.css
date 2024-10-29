@@ -1,24 +1,25 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    
+    box-sizing: border-box;
 }
 
-:root{
+img {
+    width: 100%;
+}
+
+:root {
     --MørkGrønn--: #214E34;
     --Grønn--: #A1CDA8;
     --LysGrønn--: #B5DFCA;
     --VeldigLysGrønn--: #C5E7E2;
     --Blå--: #337CA0;
- }
+}
 
-.overskrift{
-    background-color: var(--Blå--); 
-    text-align: center; 
+.overskrift {
+    background-color: var(--Blå--);
+    text-align: center;
     padding: 1px;
     margin: 0;
     font-size: 25px;
 }
-
-
-fargepalett
