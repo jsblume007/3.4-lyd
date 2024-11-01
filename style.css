@@ -32,9 +32,9 @@ img {
 
 .container{
     display: grid;
-    grid-template-columns: 400px 400px 400px;
+    grid-template-columns: 200px 400px 400px;
     justify-content: center;
-    gap: 15px;
+    gap: 50px;
     margin-top: 80px;
 }
 
@@ -42,6 +42,9 @@ h1{
     text-align: center;
 }
 
+#boks1, #boks2, #boks3{
+    padding-bottom: 300px;
+}
 
 #boks1{
     grid-column: 1/4;
@@ -57,11 +60,9 @@ h1{
     grid-row: 3;
 }
 
-#boks4{
-    grid-column: 1/4;
-    grid-row: 4;
+.underoverskrift{
+    margin-top: 30px;
 }
-
 
 @media (width<600px){
     .container{
