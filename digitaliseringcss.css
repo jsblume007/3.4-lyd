@@ -1,0 +1,9 @@
+.header {
+  grid-template-columns: 2fr;
+}
+.main {
+  grid-template-columns: 1fr;
+}
+.aside {
+  grid-template-columns: 20%;
+}
