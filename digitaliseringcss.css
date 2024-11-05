@@ -1,9 +1,24 @@
-.header {
-  grid-template-columns: 2fr;
+body {
+    overflow: hidden;
 }
-.main {
-  grid-template-columns: 1fr;
+.container {
+  display: grid;
+  grid-template-columns: 1fr 20%;
+  grid-template-rows: 17vh auto;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 8px;
+  height: 100vh;
 }
-.aside {
-  grid-template-columns: 20%;
+.container > div {
+    height: 100%;
+}
+.container > div.header {
+    grid-column: 1 / -1;
+}
+.container > div.main {
+    grid-column: 1;
+}
+.container > div.aside {
+  grid-column: 2;
 }
