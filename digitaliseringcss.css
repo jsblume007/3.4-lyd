@@ -1,10 +1,10 @@
 body {
-    overflow: hidden;
+    overflow: show;
 }
 .container {
   display: grid;
-  grid-template-columns: 1fr 20%;
-  grid-template-rows: 17vh auto;
+  grid-template-columns: 1fr 35%;
+  grid-template-rows: 17vh 58vh 25vh;
   justify-content: center;
   gap: 5px;
   margin-top: 8px;
@@ -18,7 +18,39 @@ body {
 }
 .container > div.main {
     grid-column: 1;
+    grid-row: span 2;
 }
 .container > div.aside {
+  display: flex;
+  flex-direction: column;
   grid-column: 2;
+  overflow-y: auto;
+}
+
+.container > div.aside img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.container > div.aside p {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.container > div.sound {
+
+}
+#div1 {
+  background-color: lightcoral;
+  height: 25%;
+}
+#div2 {
+  background-color: aqua;
+  height: 25%;
+}
+#div3 {
+  background-color: lightblue;
+  height: 25%;
 }
