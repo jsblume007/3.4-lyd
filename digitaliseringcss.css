@@ -4,53 +4,51 @@ body {
 .container {
   display: grid;
   grid-template-columns: 1fr 35%;
-  grid-template-rows: 17vh 58vh 25vh;
+  grid-template-rows: 17vh auto 25vh;
   justify-content: center;
-  gap: 5px;
-  margin-top: 8px;
+  gap: 0px;
+  margin-top: 0px;
   height: 100vh;
+  border: 5px solid lightblue;
 }
-.container > div {
-    height: 100%;
+.container > * {
+  border: 2px solid lightblue;
 }
-.container > div.header {
+header {
     grid-column: 1 / -1;
 }
-.container > div.main {
+main {
     grid-column: 1;
     grid-row: span 2;
 }
-.container > div.aside {
+aside {
   display: flex;
   flex-direction: column;
   grid-column: 2;
   overflow-y: auto;
 }
 
-.container > div.aside img {
+aside img {
   width: 100%;
   height: auto;
   object-fit: contain;
   margin-bottom: 10px;
 }
 
-.container > div.aside p {
-  margin: 0 0 20px 0;
+.container > .aside p {
+  margin-bottom: 20px;
   text-align: center;
 }
 
-.container > div.sound {
+.container > .sound {
 
 }
 #div1 {
   background-color: lightcoral;
-  height: 25%;
 }
 #div2 {
   background-color: aqua;
-  height: 25%;
 }
 #div3 {
   background-color: lightblue;
-  height: 25%;
 }
