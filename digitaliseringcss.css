@@ -4,7 +4,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: 1fr 35%;
-  grid-template-rows: 17vh auto 25vh;
+  grid-template-rows: 12vh auto 32vh repeat(2, auto);
   justify-content: center;
   gap: 0px;
   margin-top: 0px;
@@ -16,10 +16,25 @@ body {
 }
 header {
     grid-column: 1 / -1;
+    text-align: center;
+    background-color: var(--Blå--);
+}
+header h1 {
+  margin: 1%;
 }
 main {
     grid-column: 1;
     grid-row: span 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main div {
+  border: solid 2px black;
+  height: 80%;
+  width: 80%;
+  border-radius: 15px;
+  padding: 20px;
 }
 aside {
   display: flex;
@@ -39,16 +54,14 @@ aside img {
   margin-bottom: 20px;
   text-align: center;
 }
-
-.container > .sound {
-
-}
-#div1 {
-  background-color: lightcoral;
-}
+#div1, 
 #div2 {
-  background-color: aqua;
+  background-color: var(--LysGrønn--);
 }
-#div3 {
-  background-color: lightblue;
+
+@media (width<600px) {
+  body > .container {
+    grid-template-columns: 1fr !important;
+    
+  }
 }
