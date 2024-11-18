@@ -1,5 +1,5 @@
 body {
-    overflow: show;
+  overflow: show;
 }
 .container {
   display: grid;
@@ -15,19 +15,19 @@ body {
   border: 2px solid lightblue;
 }
 header {
-    grid-column: 1 / -1;
-    text-align: center;
-    background-color: var(--Blå--);
+  grid-column: 1 / -1;
+  text-align: center;
+  background-color: var(--Blå--);
 }
 header h1 {
   margin: 1%;
 }
 main {
-    grid-column: 1;
-    grid-row: span 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  grid-column: 1;
+  grid-row: span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 main div {
   border: solid 2px black;
@@ -35,6 +35,7 @@ main div {
   width: 80%;
   border-radius: 15px;
   padding: 20px;
+  margin: 5px;
 }
 aside {
   display: flex;
@@ -54,14 +55,26 @@ aside img {
   margin-bottom: 20px;
   text-align: center;
 }
-#div1, 
+audio {
+  width: 100%;
+}
+#div1,
 #div2 {
   background-color: var(--LysGrønn--);
 }
 
-@media (width<600px) {
+@media (width<800px) {
   body > .container {
     grid-template-columns: 1fr !important;
-    
+    grid-template-rows: auto auto auto 1fr;
+    height: auto;
+  }
+  aside {
+    grid-column: 1;
+    grid-row: span 2;
+  }
+  main div {
+    height: fit-content;
+    width: fit-content;
   }
 }
