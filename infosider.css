@@ -82,8 +82,15 @@ audio {
     height: auto;
   }
   aside {
+    display: flex;
+    flex-direction: row;
     grid-column: 1;
     grid-row: span 2;
+    background-color: var(--LysGrønn--);
+  }
+  aside div {
+  width: 50%;
+  margin: 2px;
   }
   main div {
     height: fit-content;
