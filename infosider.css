@@ -15,12 +15,20 @@ body {
   border: 2px solid lightblue;
 }
 header {
+  display: flex;
   grid-column: 1 / -1;
   text-align: center;
   background-color: var(--Blå--);
 }
+header img {
+  margin-top: 30%;
+  margin-left: 30%;
+  width: 50px;
+  height 50px;
+}
 header h1 {
   margin: 1%;
+  width: 90%;
 }
 main {
   grid-column: 1;
