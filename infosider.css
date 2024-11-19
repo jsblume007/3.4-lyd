@@ -76,7 +76,7 @@ audio {
 }
 
 #aside_opptak {
-  grid-row: 2/3;
+  grid-row: span 2;
 }
 
 @media (width<800px) {
