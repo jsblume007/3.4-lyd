@@ -15,12 +15,20 @@ body {
   border: 2px solid lightblue;
 }
 header {
+  display: flex;
   grid-column: 1 / -1;
   text-align: center;
   background-color: var(--Blå--);
 }
+header img {
+  margin-top: 30%;
+  margin-left: 30%;
+  width: 50px;
+  height: 50px;
+}
 header h1 {
   margin: 1%;
+  width: 90%;
 }
 main {
   grid-column: 1;
@@ -36,6 +44,10 @@ main div {
   border-radius: 15px;
   padding: 20px;
   margin: 5px;
+}
+main section {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 aside {
   display: flex;
@@ -70,11 +82,24 @@ audio {
     height: auto;
   }
   aside {
+    display: flex;
+    flex-direction: row;
     grid-column: 1;
     grid-row: span 2;
+    background-color: var(--LysGrønn--);
+  }
+  aside div {
+  width: 50%;
+  margin: 2px;
   }
   main div {
     height: fit-content;
     width: fit-content;
+  }
+  header img {
+    margin-top: 23%;
+    margin-left: 20%;
+    width: 45px;
+    height: 45px;
   }
 }
