@@ -24,7 +24,7 @@ header img {
   margin-top: 30%;
   margin-left: 30%;
   width: 50px;
-  height 50px;
+  height: 50px;
 }
 header h1 {
   margin: 1%;
@@ -45,7 +45,7 @@ main div {
   padding: 20px;
   margin: 5px;
 }
-main section {¨
+main section {
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -86,8 +86,15 @@ audio {
     height: auto;
   }
   aside {
+    display: flex;
+    flex-direction: row;
     grid-column: 1;
     grid-row: span 2;
+    background-color: var(--LysGrønn--);
+  }
+  aside div {
+  width: 50%;
+  margin: 2px;
   }
   main div {
     height: fit-content;

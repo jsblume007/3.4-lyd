@@ -1,3 +1,27 @@
+.bakgrunn{
+    background-image: url("bilder/baklyd.jpeg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.navi{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.navidiv{
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a{
+    color: #f2f2f2;
+    text-decoration: auto;
+}
+
 #boks1, #boks2, #boks3{
     padding-bottom: 300px;
 }
