@@ -75,6 +75,10 @@ audio {
   background-color: var(--LysGrønn--);
 }
 
+#aside_opptak {
+  grid-row: 2/3;
+}
+
 @media (width<800px) {
   body > .container {
     grid-template-columns: 1fr !important;
