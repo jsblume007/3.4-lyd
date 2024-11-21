@@ -23,7 +23,7 @@ body{
 main{
     display: grid;
     grid-template-columns: 40% auto 60%;
-    grid-auto-rows: 60vh 40vh;
+    grid-auto-rows: auto 40vh;
 }
 
 #boks1{
@@ -45,6 +45,7 @@ main{
 
 #boks2{
     border: solid 3px lightblue;
+    height: auto;
 }
 
 #boks2 p{
@@ -75,6 +76,7 @@ audio{
 video{
     border-radius: 30px;
     border: solid white 2px;
+    margin-bottom: 40px;
 }
 
 .bakgrunn{
