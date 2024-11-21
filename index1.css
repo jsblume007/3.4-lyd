@@ -5,14 +5,15 @@
 }
 
 .overskrift{
-    height: 15vh;
+    height: 12vh;
     padding-top: 15px;
+    border-bottom: solid white 3px;
 }
 
 .navi{
     display: flex;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 100px;
 }
 
 .navidiv{
@@ -23,6 +24,11 @@
     background-color: rgba(246, 238, 238, 0.5);
     margin: 20px;
     border-radius: 10px;
+    border: solid white;
+}
+
+body{
+    border: solid white 3px;
 }
 
 a{
