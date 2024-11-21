@@ -98,7 +98,7 @@ audio {
   background-color: var(--LysGrønn--);
 }
 
-#aside_opptak {
+#aside_opptak_komp {
   grid-row: span 2;
 }
 
