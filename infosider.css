@@ -36,10 +36,12 @@ header h1 {
   width: 90%;
 }
 
-.opptakbakrunn, .komprimeringbakrunn{
+.opptakbakrunn,
+.komprimeringbakrunn {
   background-image: url(bilder/200w.gif);
 }
-.digitaliseringbakrunn{ 
+
+.digitaliseringbakrunn {
   background-image: url(bilder/musical-notes-animation-download-in-lottie-json-gif-static-svg-file-formats--music-note-tone-melody-pack-entertainment-animations-4657366.gif);
 }
 
