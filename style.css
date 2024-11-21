@@ -21,7 +21,8 @@ img {
     text-align: center;
     padding: 1px;
     margin: 0;
-    font-size: 25px;
+    font-size: 30px;
+    font-family: serif;
 }
 
 .container>div{

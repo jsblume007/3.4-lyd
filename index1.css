@@ -4,10 +4,16 @@
     background-size: cover;
 }
 
+.overskrift{
+    height: 12vh;
+    padding-top: 15px;
+    border-bottom: solid white 3px;
+}
+
 .navi{
     display: flex;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 100px;
 }
 
 .navidiv{
@@ -15,11 +21,24 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 30px;
+    background-color: rgba(246, 238, 238, 0.5);
+    margin: 20px;
+    border-radius: 10px;
+    border: solid white;
+}
+
+body{
+    border: solid white 3px;
 }
 
 a{
     color: #f2f2f2;
     text-decoration: auto;
+}
+
+.navidiv:hover{
+    color: darkgrey;
+    background-color: darkgray;
 }
 
 #boks1, #boks2, #boks3{
