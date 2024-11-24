@@ -7,8 +7,8 @@ body {
   grid-template-columns: 1fr 35%;
   grid-template-rows: 12vh auto 32vh repeat(2, auto);
   justify-content: center;
-  gap: 0px;
-  margin-top: 0px;
+  gap: 0;
+  margin-top: 0;
   height: 100vh;
   border: 5px solid lightblue;
 }
@@ -79,9 +79,6 @@ aside {
 }
 
 aside img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
   margin-bottom: 10px;
 }
 
@@ -129,7 +126,7 @@ audio {
   }
 
   header img {
-    margin-top: 23%;
+    margin-top: 44%;
     margin-left: 20%;
     width: 45px;
     height: 45px;
