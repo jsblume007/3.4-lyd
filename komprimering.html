@@ -20,17 +20,13 @@
                 <section>
                     <h1>Komprimering med pcm</h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, est esse. Nulla
-                        necessitatibus nisi illo, veniam dolore consequuntur ut voluptatem officiis aliquam aperiam. A
-                        maiores odit illum deleniti facilis. Nostrum?
+                      PCM er en metode for digital lydrepresentasjon som tar prøver av et analogt signal ved faste intervaller (sampling) og gjør det til digitale verdier. Hver prøve lagres med en fast oppløsning, f.eks. 16-bits dybde, hvor signalet kan ha 65 536 ulike nivåer. For eksempel, ved en samplingfrekvens på 44,1 kHz og 16-bit kvantisering, lagres 44 100 verdier per sekund for å representere lydsignalet nøyaktig.
                     </p>
                 </section>
                 <section>
                     <h1>Komprimering ADPCM</h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, dolor necessitatibus tenetur
-                        aliquid nostrum quaerat iure dolorum? Totam dolore voluptatem obcaecati? Vero id hic soluta,
-                        accusamus veniam eaque et optio.
+                      ADPCM er en komprimert variant av PCM som lagrer forskjellen mellom prøver i stedet for hele verdiene. Dette reduserer mengden data, men er fortsatt tapsfri kompresjon, fordi originalen kan gjenopprettes nøyaktig. For eksempel, hvis en prøves verdi er 25 000 og den neste er 25 100, lagrer ADPCM kun forskjellen på +100. Ved lave endringer mellom prøvene brukes færre bits, noe som reduserer datastørrelsen.
                     </p>
                 </section>
             </div>
@@ -42,7 +38,7 @@
             </div>
             <div id="div2">
                 <img src="bilder/adpcm 2.png" alt="adpcm graf" />
-                <p>ADPCM graf, her justeres daten fra forrige fekvens</p>
+                <p>ADPCM graf, her justeres daten fra forrige, som bruker mindre filkapasitet</p>
             </div>
         </aside>
     </div>
